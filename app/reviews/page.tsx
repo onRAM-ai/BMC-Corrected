@@ -6,7 +6,6 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import dynamic from 'next/dynamic';
 
-// Define props manually (no @types exists for this package)
 type ReactStarsProps = {
   count: number;
   value?: number;
@@ -62,8 +61,27 @@ export default function ReviewsPage() {
       category: "Industrial",
       text: "BMC's team demonstrated exceptional knowledge in handling our factory's electrical infrastructure upgrade. Their safety protocols and efficiency were impressive.",
       projectImage: "/projects/industrial-1.jpg"
+    },
+    {
+      name: "Emily Parker",
+      avatar: "/avatars/client4.jpg",
+      rating: 5,
+      date: "March 1, 2024",
+      category: "Residential",
+      text: "Excellent service! The team was very professional and completed the work ahead of schedule. They also provided great advice for future maintenance.",
+      projectImage: "/projects/residential-2.jpg"
+    },
+    {
+      name: "David Wilson",
+      avatar: "/avatars/client5.jpg",
+      rating: 4,
+      date: "February 28, 2024",
+      category: "Commercial",
+      text: "Very satisfied with the lighting upgrade in our retail store. The new LED system has significantly reduced our energy costs.",
+      projectImage: "/projects/commercial-2.jpg"
     }
   ];
+
   return (
     <>
       <Navbar />
@@ -256,4 +274,31 @@ export default function ReviewsPage() {
                     rows={4}
                     className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500"
                     required
-                  ></
+                  ></textarea>
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Project Photos (Optional)
+                  </label>
+                  <input
+                    type="file"
+                    accept="image/*"
+                    multiple
+                    className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500"
+                  />
+                </div>
+                <button
+                  type="submit"
+                  className="w-full bg-green-700 text-white py-3 rounded-lg font-semibold hover:bg-green-800 transition-colors"
+                >
+                  Submit Review
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </>
+  );
+}
