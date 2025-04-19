@@ -36,7 +36,7 @@ export default function Contact() {
               <span className="block text-green-700">Available 24/7</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Need an electrician? We're here to help with all your electrical needs, from emergency repairs to new installations.
+              Need an electrician? We&rsquo;re here to help with all your electrical needs, from emergency repairs to new installations.
             </p>
           </div>
 
