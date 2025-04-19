@@ -228,7 +228,7 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold mb-6">Our Commitment to Safety</h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  At BMC Electrical, safety isn't just a priority—it&rsquo;s our foundation. We maintain rigorous safety protocols that exceed industry standards, ensuring the wellbeing of our team and clients alike.
+                  At BMC Electrical, safety isn&rsquo;t just a priority—it&rsquo;s our foundation. We maintain rigorous safety protocols that exceed industry standards, ensuring the wellbeing of our team and clients alike.
                 </p>
                 <p>
                   Every project undergoes comprehensive safety assessments, and our team receives regular training on the latest safety practices and regulations.
