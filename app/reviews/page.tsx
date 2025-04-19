@@ -80,7 +80,7 @@ export default function ReviewsPage() {
       category: "Commercial",
       text: "Very satisfied with the lighting upgrade in our retail store. The new LED system has significantly reduced our energy costs.",
       projectImage: "/projects/commercial-2.jpg"
-    }
+    },
   ];
   return (
     <>
