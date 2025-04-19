@@ -62,7 +62,7 @@ export default function ReviewsPage() {
       category: "Industrial",
       text: "BMC's team demonstrated exceptional knowledge in handling our factory's electrical infrastructure upgrade. Their safety protocols and efficiency were impressive.",
       projectImage: "/projects/industrial-1.jpg"
-    },
+    }
   ];
   return (
     <>
