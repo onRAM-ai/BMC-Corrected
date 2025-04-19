@@ -141,13 +141,13 @@ export default function AboutPage() {
                   Brandon is a dedicated electrician and proud owner of BMC Electrical, with a wealth of knowledge and experience in his field. Our team has vast networks in residential, commercial and industrial landscapes, making BMC Electrical Contractors a one-stop for all electrical works.
                 </p>
                 <p>
-                  We have managed to grow our business in Bacchus Marsh and surrounding suburbs and have loved getting to know the locals, the businesses and the stories behind the many customers we've interacted with.
+                  We have managed to grow our business in Bacchus Marsh and surrounding suburbs and have loved getting to know the locals, the businesses and the stories behind the many customers we&rsquo;ve interacted with.
                 </p>
                 <p>
                   Our goal is to provide reliable, professional electrical work that is exceptional and affordable. We understand the importance of quality work that keeps you and your family safe, whilst maintaining transparency about the work being done in your home, office or business by communicating throughout the entire process.
                 </p>
                 <p>
-                  We'd love to hear from you – so please feel free to give us a call and speak to us about your electrical needs or simply fill in one of the enquiry forms and one of the team will reach out to discuss your works as soon as we can!
+                  We&rsquo;d love to hear from you – so please feel free to give us a call and speak to us about your electrical needs or simply fill in one of the enquiry forms and one of the team will reach out to discuss your works as soon as we can!
                 </p>
               </motion.div>
             </div>
@@ -228,7 +228,7 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold mb-6">Our Commitment to Safety</h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  At BMC Electrical, safety isn't just a priority—it's our foundation. We maintain rigorous safety protocols that exceed industry standards, ensuring the wellbeing of our team and clients alike.
+                  At BMC Electrical, safety isn't just a priority—it&rsquo;s our foundation. We maintain rigorous safety protocols that exceed industry standards, ensuring the wellbeing of our team and clients alike.
                 </p>
                 <p>
                   Every project undergoes comprehensive safety assessments, and our team receives regular training on the latest safety practices and regulations.
