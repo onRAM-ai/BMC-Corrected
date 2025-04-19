@@ -63,24 +63,6 @@ export default function ReviewsPage() {
       text: "BMC's team demonstrated exceptional knowledge in handling our factory's electrical infrastructure upgrade. Their safety protocols and efficiency were impressive.",
       projectImage: "/projects/industrial-1.jpg"
     },
-    {
-      name: "Emily Parker",
-      avatar: "/avatars/client4.jpg",
-      rating: 5,
-      date: "March 1, 2024",
-      category: "Residential",
-      text: "Excellent service! The team was very professional and completed the work ahead of schedule. They also provided great advice for future maintenance.",
-      projectImage: "/projects/residential-2.jpg"
-    },
-    {
-      name: "David Wilson",
-      avatar: "/avatars/client5.jpg",
-      rating: 4,
-      date: "February 28, 2024",
-      category: "Commercial",
-      text: "Very satisfied with the lighting upgrade in our retail store. The new LED system has significantly reduced our energy costs.",
-      projectImage: "/projects/commercial-2.jpg"
-    },
   ];
   return (
     <>
