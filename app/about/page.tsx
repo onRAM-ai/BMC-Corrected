@@ -42,29 +42,6 @@ export default function AboutPage() {
     }
   ];
 
-  const timeline = [
-    {
-      year: "1998",
-      title: "Company Founded",
-      description: "BMC Electrical established in Sydney"
-    },
-    {
-      year: "2005",
-      title: "Expansion",
-      description: "Opened second office in Melbourne"
-    },
-    {
-      year: "2015",
-      title: "Industry Recognition",
-      description: "Awarded Master Electricians Excellence Award"
-    },
-    {
-      year: "2023",
-      title: "Innovation Leader",
-      description: "Pioneering smart home integration services"
-    }
-  ];
-
   return (
     <div>
       <Navbar />
@@ -181,42 +158,6 @@ export default function AboutPage() {
                   <p className="text-gray-600 text-center">{value.description}</p>
                 </motion.div>
               ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Timeline Section */}
-        <section className="py-20 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold mb-12 text-center">Our Journey</h2>
-            <div className="relative">
-              {/* Timeline line */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-green-200"></div>
-              
-              <div className="space-y-12">
-                {timeline.map((item, index) => (
-                  <motion.div
-                    key={index}
-                    className="relative"
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: index * 0.2 }}
-                  >
-                    <div className={`flex items-center ${index % 2 === 0 ? 'flex-row-reverse' : ''}`}>
-                      <div className="w-5/12"></div>
-                      <div className="w-2/12 flex justify-center">
-                        <div className="w-8 h-8 rounded-full bg-green-700 border-4 border-white shadow"></div>
-                      </div>
-                      <div className="w-5/12 bg-white p-6 rounded-lg shadow-lg">
-                        <div className="text-green-700 font-bold mb-2">{item.year}</div>
-                        <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-                        <p className="text-gray-600">{item.description}</p>
-                      </div>
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
             </div>
           </div>
         </section>
