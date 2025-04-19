@@ -6,10 +6,22 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import dynamic from 'next/dynamic';
 
-const ReactStars = dynamic(() => import('react-rating-stars-component'), {
-  ssr: false,
-  loading: () => <div className="h-6 bg-gray-200 rounded animate-pulse"></div>
-});
+// Define props manually (no @types exists for this package)
+type ReactStarsProps = {
+  count: number;
+  value?: number;
+  size?: number;
+  edit?: boolean;
+  activeColor?: string;
+};
+
+const ReactStars = dynamic<ReactStarsProps>(
+  () => import('react-rating-stars-component'),
+  {
+    ssr: false,
+    loading: () => <div className="h-6 bg-gray-200 rounded animate-pulse"></div>
+  }
+);
 
 export default function ReviewsPage() {
   const stats = {
@@ -263,31 +275,4 @@ export default function ReviewsPage() {
                     rows={4}
                     className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500"
                     required
-                  ></textarea>
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Project Photos (Optional)
-                  </label>
-                  <input
-                    type="file"
-                    accept="image/*"
-                    multiple
-                    className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="w-full bg-green-700 text-white py-3 rounded-lg font-semibold hover:bg-green-800 transition-colors"
-                >
-                  Submit Review
-                </button>
-              </form>
-            </div>
-          </div>
-        </section>
-      </main>
-      <Footer />
-    </>
-  );
-}
+                  ></
