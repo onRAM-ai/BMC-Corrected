@@ -82,7 +82,6 @@ export default function ReviewsPage() {
       projectImage: "/projects/commercial-2.jpg"
     }
   ];
-
   return (
     <>
       <Navbar />
