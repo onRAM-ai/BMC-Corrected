@@ -203,7 +203,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-600 mb-4">
-                  "Excellent service! The team was professional and completed the work ahead of schedule."
+                  &rdquo;Excellent service! The team was professional and completed the work ahead of schedule.&rdquo;
                 </p>
                 <div className="font-semibold">- John D.</div>
               </motion.div>
@@ -222,7 +222,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-600 mb-4">
-                  "Very reliable and efficient. They helped us with our electrical emergency promptly."
+                  &rdquo;Very reliable and efficient. They helped us with our electrical emergency promptly.&rdquo;
                 </p>
                 <div className="font-semibold">- Sarah M.</div>
               </motion.div>
@@ -241,7 +241,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-600 mb-4">
-                  "Great attention to detail and excellent customer service. Highly recommended!"
+                  &rdquo;Great attention to detail and excellent customer service. Highly recommended!&rdquo;
                 </p>
                 <div className="font-semibold">- Michael R.</div>
               </motion.div>
